@@ -14,14 +14,49 @@ temps = input("as tu le temps de jouer a soir ?")
 heure = input (" 7h cv ?")
 if temps == "oui" and heure == "oui" :
     print("parfait vient me rejoindre sur discord")
-    # question espace prof
 else : 
     print("pas grave peut-être une prochaine fois")
     exit ()
-rank = input ("est tu gold ou plus ??")
-if rank != "oui" : 
-    print("ha ha t'inquiète je vais te carry")
+# Finalement le problème avec ma condition and a été régler sans que je dois faire qqch
+copper = 1
+bronze = 2
+silver = 3
+gold = 4
+platinum = 5 
+Emerald = 6
+diamond = 7
+champion = 8
+score = input("quel est ton rank ?")
+if score == "copper" : 
+    score = 1 
+if score == "bronze" : 
+    score = 2
+if score == "silver" : 
+    score = 3
+if score == "gold" : 
+    score = 4
+if score == "platinum" : 
+    score = 5
+if score == "Emerald" : 
+    score = 6
+if score == "diamond" : 
+    score = 7
+if score == "champion" : 
+    score = 8
+if score <= 3 : 
+    print("cool! thq je vais t'aider")
+elif 3> score <= 6 : 
+    print("parfait je suis du même niveau")
 else :
-    print ("Yes on va grind à soir ")
-    exit ()
+    print("Wow tu est vrm fort!")
+
+
+
+
+
+
+
+
+
+
     
