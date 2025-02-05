@@ -17,7 +17,8 @@ if temps == "oui" and heure == "oui" :
 else : 
     print("pas grave peut-être une prochaine fois")
     exit ()
-# Finalement le problème avec ma condition and a été régler sans que je dois faire qqch
+# je veux rendre ma question sur le rank plus précise 
+# je vais donner des valeurs au rank pour que les gens puissent répondre par leur vrai rank et non par un oui ou non 
 copper = 1
 bronze = 2
 silver = 3
@@ -26,7 +27,9 @@ platinum = 5
 Emerald = 6
 diamond = 7
 champion = 8
-score = input("quel est ton rank ?")
+score = (input("quel est ton rank ?"))
+score = str.split(score)[0]
+# utiliser la fonction str.split pour choisir quel mot le système veut comprendre et omettre le reste 
 if score == "copper" : 
     score = 1 
 if score == "bronze" : 
@@ -41,8 +44,9 @@ if score == "Emerald" :
     score = 6
 if score == "diamond" : 
     score = 7
-if score == "champion" : 
+if score == "champion" :
     score = 8
+# faire en sorte que dépendament de la réponse un message s'affiche en réponse a son rank Ex: nul, moyen, bon 
 if score <= 3 : 
     print("cool! thq je vais t'aider")
 elif 3> score <= 6 : 

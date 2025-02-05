@@ -15,3 +15,10 @@ pour ce faire j'ai donner une valeur a chaque rank ex: copper = 1
 en fonction de la réponse de la personne ma variable <score> va gagner une valeur 
 ensuite j'ai utiliser un opérateur de comparaison pour pouvoir calculer la valeur qui est dans la variable <score>
 j'ai diviser <score> en 3 niveaux, chaqu'un de ces niveaux va afficher une réponse différente en fonction du rank que la personne a choisis  """
+
+
+
+""" 3: quand quelqu'un spécifie son rank ex : silver 2 le système marchait plus.
+pour ce faire j'ai utiliser str.split(score)[0] pour que le système prend seulement le premier mots 
+ce qui fait que peut importe ce qui est écrit apres cela n'impacte pasnle reste du code
+"""
