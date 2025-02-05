@@ -54,6 +54,35 @@ elif 3> score <= 6 :
 else :
     print("Wow tu est vrm fort!")
 
+map = input("quel est ta ma pref ?")
+Bank = 10
+Border = 11
+Clubhouse = 12
+Consulate = 13
+Coastline = 14
+Kafe_Dostoyevsky = 15
+Oregon = 16
+Skyscraper = 17
+Villa = 18
+Chalet = 19
+Theme_Park = 20
+Hereford_Base = 21
+Favela =22
+Tower = 23
+House = 24
+Outback = 25
+Stadium = 26
+Theme_Park = 27
+Fortress = 28
+Kanal = 29 
+Fort_de_Savoie = 30
+Ascension = 31
+Nighthaven_Labs = 32
+Kiba = 33
+St_Petersburg = 34
+Canal = 35
+
+
 
 
 
